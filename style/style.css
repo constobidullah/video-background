@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-parents{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-parents video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    pointer-events: none;
+}
+
+.main-parents .video-thamnail{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-thamnail h1{
+    font-size: 6em;
+    color: aliceblue;
+}
+.video-thamnail p{
+    font-size: 1.4em;
+    color: aliceblue;
+}
